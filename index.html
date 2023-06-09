@@ -521,7 +521,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				alert("name must above two charachter");
 				return;
 			}
-			const email = document.getElementById("mail");
+			const email = document.getElementById("mail").value;
 
 			email.addEventListener("input", (event) => {
   			if (email.validity.typeMismatch) {
